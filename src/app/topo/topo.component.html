@@ -1,3 +1,4 @@
+
 <div class="fixed-top">
   <nav class="navbar navbar-light bg-faded">
     <div class="container">
@@ -9,21 +10,52 @@
       </a>
     </div>
   </nav>
-
-  <div class="menu">
-    <div class="container">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link" routerLinkActive="active" [routerLink]="['/restaurantes']">Restaurantes</a>
+<div class="header-bottom hidden-phone">
+        <div class="container">
+    <ul class="flyout-first nav-left">
+        <li class="type-local item-first  active">
+            <a href="/" title="" class="city-selector local-selector" id="header-link-local">Na cidade</a>
+            
         </li>
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/diversao']" routerLinkActive="active">Diversão</a>
+        <li class="type-travel item-first ">
+            <a href="/viagens" title="" class="city-selector" id="header-link-travel">Viagens</a>
+            
         </li>
-      </ul>
-    </div>
-  </div>
+        <li class="type-product item-first ">
+            <a href="/produtos" title="" class="city-selector" id="header-link-products">Produtos</a>
+            
+        </li>
+    </ul>
+    <ul class="nav-right"><li class="">
+      <a href="/viagens-sudeste" onclick="(function() { try {  } catch(e) { console.error(e); } })()" rel="">
+        Viagens Sudeste
+      </a>
+    </li><li class="">
+      <a href="/sao-paulo-so/?colecao=novas-ofertas" onclick="(function() { try {  } catch(e) { console.error(e); } })()" rel="">
+        Novidades
+      </a>
+    </li></ul>
+    <ul class="nav-fill"><li class="">
+      <a href="/sao-paulo-so/restaurantes" onclick="(function() { try {  } catch(e) { console.error(e); } })()" rel="nofollow">
+        Restaurantes
+      </a>
+    </li><li class="">
+      <a href="/sao-paulo-so/diversao" onclick="(function() { try {  } catch(e) { console.error(e); } })()" rel="nofollow">
+        Diversão
+      </a>
+    </li><li class="">
+      <a href="/sao-paulo-so/celulares-e-smartphones-n" onclick="(function() { try {  } catch(e) { console.error(e); } })()" rel="nofollow">
+        Smartphones
+      </a>
+    </li><li class="">
+      <a href="/sao-paulo-so/beleza" onclick="(function() { try {  } catch(e) { console.error(e); } })()" rel="nofollow">
+        Beleza e Fitness
+      </a>
+    </li><li class="">
+      <a href="/sao-paulo-so/comercio-e-servicos-locais" onclick="(function() { try {  } catch(e) { console.error(e); } })()" rel="nofollow">
+        Serviços
+      </a>
+    </li></ul>
+</div>
 </div>
 
-<div class="banner">
-  <img src="/assets/banners/img_1.jpg" />
-</div>

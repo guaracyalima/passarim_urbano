@@ -1,7 +1,379 @@
-<div class="fixed-bottom">
-  <div class="row">
-    <div class="container">
-      <span>Termos de uso | Política de Privacidade</span>
+<div id="footer-div">
+    <div>
+        <div id="subscribe-bar" class="subscribe-bar is-fixed in collapse hidden-phone">
+            <div class="notification-bar">
+                <form class="container subscribe-bar-form" name="frmSignUpMailingList" id="frmSignUpMailingList">
+                    <input value="" name="ip" class="client_ip_address" type="hidden" id="clientip">
+                    <div class="row">
+                        <div class="col-4 span4">
+                            <strong class="subscribe-bar-title">Cadastre-se grátis!</strong>
+                            <p class="subscribe-bar-subtitle">Receba ofertas diárias da sua cidade</p>
+                        </div>
+                        <div class=" col-3 span3">
+                            <input autocorrect="off" type="email" placeholder="digite seu e-mail" id="email" name="email" class="register input-block-level">
+                            <span id="msgErroSignUpMailingList" class="error"></span>
+                        </div>
+                        <div class="col-3 span3 subscribe-bar-select-box">
+                            <select id="regionid" name="regionid">
+                                <option selected="selected" value="-1">
+                                    Selecione sua cidade
+                                </option>
+                            </select>
+                        </div>
+                        <div class="col-2 span2 btn-signup-email">
+                            <button class="btn primary" type="button" id="btnSignUpMailingList">
+                                cadastre-se</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 span12">
+                            <p class="subscribe-bar-use">
+                                Ao se cadastrar você concorda com os <a target="_blank" href="https://sobre.peixeurbano.com.br/termos-de-uso/" rel="nofollow">termos de uso</a> e a <a target="_blank" href="https://sobre.peixeurbano.com.br/politica-de-privacidade/" rel="nofollow">política de privacidade</a>.</p>
+                        </div>
+                    </div>
+                    <button class="close_alert" type="button" title="Fechar"></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="pre-footer-box">
+            <div class="bigbanner_box">
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="col-6 span6 wrapper-mobile">
+                            <div class="box-mobile">
+                                <strong>Explore a cidade de onde estiver</strong>
+                                <a class="box-mobile-lnk" href="javascript:void(0)" onclick="PU.goToApp.OpenOrDownload.android()" rel="nofollow">
+                                    <img class="lazy" data-original="/static/img/box-mobile.png" height="173" width="220" src="https://app.stpu.com.br/static/img/deal-placeolder.png" alt="Peixe Urbano Mobile - Explore sua cidade de qualquer lugar">
+                                </a>
+                                <a class="icon-android" href="javascript:void(0)" onclick="PU.goToApp.OpenOrDownload.android()" rel="nofollow">Android</a>
+                                <a class="icon-apple" href="javascript:void(0)" onclick="PU.goToApp.OpenOrDownload.iphone()" rel="nofollow">Iphone</a>
+                            </div>
+                        </div>
+
+                        <div class="col-6 span6 visible-desktop">
+                            <div class="box-like">
+                                <div data-send="false" data-show-faces="true" data-action="like" data-layout="standard" data-colorscheme="light" data-height="65" data-width="440" data-href="http://www.facebook.com/peixeurbano" class="fb-like"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <canvas class="footer-ocean" id="js-ocean"></canvas>
+
+            <div class="container">
+                <div class="row-fluid super-banner-box">
+                    <div class="col-12 span12">
+                        <div id="div-gpt-ad-1508273971355-0">
+                            <script>
+                                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1508273971355-0'); });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-fluid super-banner-box">
+                    <div class="col-4 span4">
+                        <div style="height:250px; width:300px;" id="div-gpt-ad-1507149933590-0">
+                            <script>
+                                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1508273971355-1'); });
+                            </script>
+                        </div>
+                    </div>
+                    <div class="col-4 span4">
+                        <div style="height:250px; width:300px;" id="div-gpt-ad-1507149933590-1">
+                            <script>
+                                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1508273971355-2'); });
+                            </script>
+                        </div>
+                    </div>
+                    <div class="col-4 span4">
+                        <div style="height:250px; width:300px;" id="div-gpt-ad-1507149933590-2">
+                            <script>
+                                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1508273971355-3'); });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page-tags page-tags-top row-fluid" id="footer_page_tags_div">
+    <div data-trck-action="filter-footer" class="span12 page-tags-span12">
+        <div class="container-tags">
+            <div class="box-tags" title="">
+                <div class="div-box-tags" title="">
+                    <a title="Restaurantes" class="tag-link tag-category" href="/sao-paulo-so/restaurantes">
+                        Restaurantes
+                    </a>
+                    <span title="Restaurantes" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div class="div-box-tags" title="">
+                    <a title="Divers&#x00e3;o" class="tag-link tag-category" href="/sao-paulo-so/diversao">
+                        Diversão
+                    </a>
+                    <span title="Divers&#x00e3;o" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div class="div-box-tags" title="">
+                    <a title="Ingressos" class="tag-link tag-category" href="/sao-paulo-so/ingressos">
+                        Ingressos
+                    </a>
+                    <span title="Ingressos" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div class="div-box-tags" title="">
+                    <a title="Beleza e Fitness" class="tag-link tag-category" href="/sao-paulo-so/beleza">
+                        Beleza e Fitness
+                    </a>
+                    <span title="Beleza e Fitness" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div class="div-box-tags" title="">
+                    <a title="Com&#x00e9;rcio e Servi&#x00e7;os" class="tag-link tag-category" href="/sao-paulo-so/comercio-e-servicos-locais">
+                        Comércio e Serviços
+                    </a>
+                    <span title="Com&#x00e9;rcio e Servi&#x00e7;os" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div class="div-box-tags" title="">
+                    <a title="Projetos Sociais" class="tag-link tag-category" href="/sao-paulo-so/projetos-sociais">
+                        Projetos Sociais
+                    </a>
+                    <span title="Projetos Sociais" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div class="div-box-tags" title="">
+                    <a title="Centro e Regi&#x00e3;o" class="tag-link tag-region" href="/sao-paulo-so/centro-e-regiao-sp">
+                        Centro e Região
+                    </a>
+                    <span title="Centro e Regi&#x00e3;o" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div class="div-box-tags" title="">
+                    <a title="Zona Leste" class="tag-link tag-region" href="/sao-paulo-so/zona-leste-sp">
+                        Zona Leste
+                    </a>
+                    <span title="Zona Leste" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div class="div-box-tags" title="">
+                    <a title="Zona Norte" class="tag-link tag-region" href="/sao-paulo-so/zona-norte-sp">
+                        Zona Norte
+                    </a>
+                    <span title="Zona Norte" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div class="div-box-tags" title="">
+                    <a title="Zona Oeste" class="tag-link tag-region" href="/sao-paulo-so/zona-oeste-sp">
+                        Zona Oeste
+                    </a>
+                    <span title="Zona Oeste" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div class="div-box-tags" title="">
+                    <a title="Zona Sul" class="tag-link tag-region" href="/sao-paulo-so/zona-sul-sp">
+                        Zona Sul
+                    </a>
+                    <span title="Zona Sul" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
+
+                <div class="page-tags row-fluid" id="footer_page_keywords_div">
+    <div data-trck-action="filter-keywords-footer" class="span12 page-keywords-span12">
+        <div class="container-tags"> <strong>Buscas mais populares:</strong>
+            <div class="box-tags" title="">
+                <div href="/sao-paulo-so/busca?q=Boliche" title="Boliche" class="div-box-tags">
+                    <a title="Boliche" href="/sao-paulo-so/busca?q=Boliche" class="tag-link">
+                        Boliche
+                    </a>
+                    <span title="Boliche" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div href="/sao-paulo-so/busca?q=Playland" title="Playland" class="div-box-tags">
+                    <a title="Playland" href="/sao-paulo-so/busca?q=Playland" class="tag-link">
+                        Playland
+                    </a>
+                    <span title="Playland" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div href="/sao-paulo-so/busca?q=Viva Parque" title="Viva Parque" class="div-box-tags">
+                    <a title="Viva Parque" href="/sao-paulo-so/busca?q=Viva Parque" class="tag-link">
+                        Viva Parque
+                    </a>
+                    <span title="Viva Parque" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div href="/sao-paulo-so/busca?q=Kart" title="Kart" class="div-box-tags">
+                    <a title="Kart" href="/sao-paulo-so/busca?q=Kart" class="tag-link">
+                        Kart
+                    </a>
+                    <span title="Kart" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div href="/sao-paulo-so/busca?q=Buffet Infantil" title="Buffet Infantil" class="div-box-tags">
+                    <a title="Buffet Infantil" href="/sao-paulo-so/busca?q=Buffet Infantil" class="tag-link">
+                        Buffet Infantil
+                    </a>
+                    <span title="Buffet Infantil" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div href="/sao-paulo-so/busca?q=Parque Aqu&#x00e1;tico" title="Parque Aqu&#x00e1;tico" class="div-box-tags">
+                    <a title="Parque Aqu&#x00e1;tico" href="/sao-paulo-so/busca?q=Parque Aqu&#x00e1;tico" class="tag-link">
+                        Parque Aquático
+                    </a>
+                    <span title="Parque Aqu&#x00e1;tico" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div href="/sao-paulo-so/busca?q=Coco Bambu" title="Coco Bambu" class="div-box-tags">
+                    <a title="Coco Bambu" href="/sao-paulo-so/busca?q=Coco Bambu" class="tag-link">
+                        Coco Bambu
+                    </a>
+                    <span title="Coco Bambu" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div href="/sao-paulo-so/busca?q=Cinema" title="Cinema" class="div-box-tags">
+                    <a title="Cinema" href="/sao-paulo-so/busca?q=Cinema" class="tag-link">
+                        Cinema
+                    </a>
+                    <span title="Cinema" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div><div class="box-tags" title="">
+                <div href="/sao-paulo-so/busca?q=Buffet" title="Buffet" class="div-box-tags">
+                    <a title="Buffet" href="/sao-paulo-so/busca?q=Buffet" class="tag-link">
+                        Buffet
+                    </a>
+                    <span title="Buffet" class="category-name"></span>
+                    <span class="triangle"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <div data-trck-action="footer" class="footer-nav row-fluid">
+                    <div class="col-3 span3">
+                        <strong>Passarim Urbano</strong>
+                        <ul>
+                            <li><a data-trck-on="sobre-a-empresa" href="#" rel="nofollow">Sobre a empresa</a></li>
+                            <li><a data-trck-on="conteudo" href="#" rel="nofollow">Conteúdo</a></li>
+                            <li><a data-trck-on="Blog" href="h#" rel="nofollow">Blog</a></li>
+                            <li><a data-trck-on="facebook" href="#" rel="nofollow">Facebook</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-3 span3">
+                        <strong>Ofertas</strong>
+                        <ul>
+                            <li><a data-trck-on="invite" href="/DashBoard/InviteFriends" rel="nofollow">Convide amigos</a></li>
+                            <li><a data-trck-on="subscribe" data-toggle="subscribe" href="#" rel="nofollow">Receba ofertas</a></li>
+                            <li><a href="/cupons" rel="nofollow">Cupons de desconto</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3 span3">
+                        <strong>Parceiros</strong>
+                        <ul>
+                            <li><a data-trck-on="seja-parceiro" href="#" rel="nofollow">Seja um Parceiro</a></li>
+                            <li><a data-trck-on="portal-parceiro" target="_blank" href="#" rel="nofollow">Portal do Parceiro</a></li>
+                            <li><a data-trck-on="app-parceiro" target="_blank" href="#" rel="nofollow">App de parceiros</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3 span3">
+                        <strong>Central de ajuda</strong>
+                        <ul>
+                            <li><a data-trck-on="cancelamento" href="#">Cancelamento de compra</a></li>
+                            <li><a data-trck-on="status-cupom" href="#">Status de cupom</a></li>
+                            <li><a data-trck-on="rastreamento" href="#" rel="nofollow">Rastrear meu produto</a></li>
+                            <li><a data-trck-on="ajuda" href="#" rel="nofollow">Outras dúvidas - Ajuda</a></li>
+                            <li><a onclick="zE.activate();" class="hide" href="javascript:void(0);" rel="nofollow">Fale com um atendente</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pos_footer">
+                <div class="container">
+                    <div class="row-fluid info-payments visible-desktop">
+                        <div class="col-9 span9">
+                            <div class="payments-ways">
+                                <strong>Cartões de crédito</strong>
+                                <ul class="payments-type payment-cards">
+                                    <li>Visa</li>
+                                    <li>Master Card</li>
+                                    <li>Diners</li>
+                                    <li>American Express</li>
+                                    <li>Hipercard</li>
+                                    <li>Elo</li>
+                                </ul>
+                            </div>
+                            <div class="payments-ways last">
+                                <strong>Transferência online</strong>
+                                <ul class="payments-type payment-bank">
+                                    <li>Brasesco</li>
+                                    <li>Itaú</li>
+                                    <li>Banco do Brasil</li>
+                                    <li>Banrisul</li>
+                                    <li>HSBC</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 span3">
+                            <strong>Segurança <i class="icon-lock"></i></strong>
+                            <span data-delay="200" data-container=".site-blindado" data-html="true" data-trigger="hover" data-content="&lt;a rel='nofollow' href='https://selo.siteblindado.com.br/verificar?url=www.peixeurbano.com.br' target='_blank' title='Visualizou o selo Site Blindado? Navegue tranquilamente, esse site esta BLINDADO CONTRA ATAQUES. Realizamos milhares de testes simulando ataques de hacker, para garantir a seguran&#x00e7;a do site. Clique no selo e confira o certificado.'>&lt;img src='https://s3-sa-east-1.amazonaws.com/selo.siteblindado.com/seals_aw/peixeurbano.com.br/siteblindado_pr.gif' width='115' height='32' />&lt;/a>" data-placement="top" data-toggle="popover" class="site-blindado seguranca"></span>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span8 visible-desktop">
+                            © Passarim Urbano Web Serviços Digitais, LTDA. Todos os direitos reservados.
+              
+                            <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 500, Bloco G,lorem ipsum, Brasília, DF, CEP 0000000
+                        </div>
+                        <div class="span4 text-right">
+                            <a data-trck-on="termos-de-uso" target="_blank" href="https://sobre.peixeurbano.com.br/termos-de-uso/" rel="nofollow">Termos de uso</a> | <a data-trck-on="politica-privacidade" target="_blank" href="https://sobre.peixeurbano.com.br/politica-de-privacidade/" rel="nofollow">Política de Privacidade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span id="selected-city" style="display:none">São Paulo - Sul e Oeste</span>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="fb-root"></div>
+<span id="currentCity" style="display:none;">São Paulo - Sul e Oeste</span>
+<div class="tag-hide" id="socl-tracking-view"></div>
+
